@@ -1,0 +1,39 @@
+1.
+
+mkdir abc
+mkdir xyz
+
+2.
+
+cd abc/
+touch five
+touch six
+touch c.txt
+
+3.
+
+cd
+cd abc/
+cd /
+
+4.
+
+cd abc/
+ls
+five six c.txt
+
+5.
+
+cp five xyz
+
+6.
+
+mv five six
+
+7.
+
+mv c.txt oldc.txt
+
+8.
+
+rm test
